@@ -18,7 +18,7 @@ base_url = "127.0.0.1"
 api = webuiapi.WebUIApi(host=base_url, port=7860, sampler='DPM++ 2M Karras', steps=20,use_https=False)
 
 # api.set_auth('MetexLabAPIUser', 'eWg8S4qFdHA6tdR')
-api.set_auth('Metex', 'hehe')
+api.set_auth('organization', 'pass')
 
 SDXL_styles = [
 
